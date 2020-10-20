@@ -47,6 +47,16 @@ hr {
   background-color: #f2cc8f;
   padding: 1em; }
 
+a:link {
+  color: #E07A5F; }
+
+a:visited {
+  color: #E07A5F; }
+
+a:hover {
+  color: #F4F1DE;
+  background: #E07A5F; }
+
 * {
   box-sizing: border-box; }
 
