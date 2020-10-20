@@ -55,29 +55,39 @@ hr {
 	padding: 1em;
 }
 
+a:link {
+      color: #E07A5F;
+}
+a:visited {
+      color: #E07A5F;
+}
+a:hover {
+      color: #F4F1DE;
+      background: #E07A5F;
+}
 
 
-	* {box-sizing: border-box;}
+* {box-sizing: border-box;}
 
-    .wrapper > div {
-      border-radius: 2px;
-      background-color: rgb(242, 204, 143);
-      padding: 1em;
-    	}
-    .wrapper {
-    	display: grid;
-    	grid-template-columns: auto 1fr;
-    	grid-template-rows: auto;
-    	grid-gap: 1px;
-			}
-		.wrapper3 > div {
-	     border-radius: 2px;
-	     background-color: rgb(242, 204, 143);
-	     padding: 1em;
-    	}
-		.wrapper3 {
-	    display: grid;
-	   	grid-template-columns: auto 1fr 1fr;
-	   	grid-template-rows: auto;
-	   	grid-gap: 1px;
-				}
+.wrapper > div {
+  border-radius: 2px;
+  background-color: rgb(242, 204, 143);
+  padding: 1em;
+	}
+.wrapper {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto;
+	grid-gap: 1px;
+	}
+.wrapper3 > div {
+   border-radius: 2px;
+   background-color: rgb(242, 204, 143);
+   padding: 1em;
+	}
+.wrapper3 {
+  display: grid;
+ 	grid-template-columns: auto 1fr 1fr;
+ 	grid-template-rows: auto;
+ 	grid-gap: 1px;
+	}
